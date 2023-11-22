@@ -1,20 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package henger;
 
-/**
- *
- * @author SzlankaPéter(SZF_202
- */
 public class Henger {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private static int hengerDb;
+    private double sugar, magassag;
+
+    public Henger(double sugar, double magassag) {
+        this.sugar = sugar;
+        this.magassag = magassag;
+        hengerDb++;
     }
-    
+
+    public double getSugar() {
+        return sugar;
+    }
+
+    public double getMagassag() {
+        return magassag;
+    }
+
+    public static int getHengerDb() {
+        return hengerDb;
+    }
+
+    public double terfogat() {
+        return 0.0;
+    }
+
+    @Override
+    public String toString() {
+        return "";
+    }
+
 }
