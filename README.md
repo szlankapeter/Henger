@@ -1,1 +1,2 @@
-# Szlanka Péter Henger Program
+# Henger Program
+# Szlanka Péter
