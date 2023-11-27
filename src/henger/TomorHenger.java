@@ -12,7 +12,7 @@ public class TomorHenger extends Henger {
     public TomorHenger(double sugar, double magassag) {
         this(1, sugar, magassag);
     }
-
+    
     public double getFajSuly() {
         return fajSuly;
     }

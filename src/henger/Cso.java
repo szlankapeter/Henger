@@ -19,7 +19,9 @@ public class Cso extends TomorHenger {
     }
 
     public double terfogat() {
-        return 0.0;
+        double lyuk = (getSugar()-falvastagsag) * (getSugar()-falvastagsag)*Math.PI*getMagassag();
+        double teljes = getSugar()*getSugar()*Math.PI*getMagassag();
+        return teljes - lyuk;
     }
 
     @Override
